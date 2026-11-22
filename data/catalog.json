@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T19:59:01.765Z",
+  "updatedAt": "2026-11-22T20:10:24.978Z",
   "brand": {
     "brandName": "Le Mi Robine",
     "heroEyebrow": "Manifattura Artigianale · Vendita Diretta",
@@ -34,19 +34,19 @@
     {
       "id": "prod-vaso-travertino",
       "sku": "AB-VAS-01",
-      "name": "Portafoglio con incisione",
-      "category": "Portafogli",
-      "summary": "Pelle misure 15x10",
-      "description": "Portafoglio con incisione a laser personalizzabile",
+      "name": "Segnalibri in legno",
+      "category": "Segnalibri",
+      "summary": "Segnalibro con incisione laser",
+      "description": "Segnalibro in legno con scritta personalizzabile 11x3 cm",
       "unitLabel": "pz",
-      "basePrice": 9,
+      "basePrice": 2,
       "currency": "EUR",
       "tiers": [
         {
           "id": "t1",
           "minQty": 1,
           "maxQty": null,
-          "unitPrice": 9,
+          "unitPrice": 2,
           "label": "Singolo"
         }
       ],
@@ -147,6 +147,78 @@
       "availability": "made-to-order",
       "featured": true,
       "order": 3
+    },
+    {
+      "id": "prod-mws9ls92-xaqz",
+      "sku": "ART-05",
+      "name": "Sottopentola in sughero",
+      "category": "Sottopentola",
+      "summary": "Sottopentola con incisione laser",
+      "description": "Sottopentola in sughero natalizio",
+      "unitLabel": "pz",
+      "basePrice": 5,
+      "currency": "EUR",
+      "tiers": [
+        {
+          "id": "tier-mws9ls92-2j3g",
+          "minQty": 1,
+          "maxQty": null,
+          "unitPrice": 5,
+          "label": "Standard"
+        }
+      ],
+      "imageUrl": "./images/prod-prod-mws9ls92-xaqz.jpg",
+      "availability": "available",
+      "featured": false,
+      "order": 4
+    },
+    {
+      "id": "prod-mws9q182-y9iw",
+      "sku": "ART-06",
+      "name": "Alberello di natale",
+      "category": "Alberello ",
+      "summary": "Alberello di natale inciso a laser",
+      "description": "Alberello di natale inciso al laser testo personalizzabile",
+      "unitLabel": "pz",
+      "basePrice": 2,
+      "currency": "EUR",
+      "tiers": [
+        {
+          "id": "tier-mws9q183-roux",
+          "minQty": 1,
+          "maxQty": null,
+          "unitPrice": 2,
+          "label": "Standard"
+        }
+      ],
+      "imageUrl": "./images/prod-prod-mws9q182-y9iw.jpg",
+      "availability": "available",
+      "featured": false,
+      "order": 5
+    },
+    {
+      "id": "prod-mws9s3v6-8eyh",
+      "sku": "ART-07",
+      "name": "Portachiave in pelle",
+      "category": "Portachiave",
+      "summary": "Portachiave in pelle inciso al laser",
+      "description": "Portachiave rotondo inciso a laser personalizzabile con anello ",
+      "unitLabel": "pz",
+      "basePrice": 3.5,
+      "currency": "EUR",
+      "tiers": [
+        {
+          "id": "tier-mws9s3v6-5ce5",
+          "minQty": 1,
+          "maxQty": 1,
+          "unitPrice": 3.5,
+          "label": "Standard"
+        }
+      ],
+      "imageUrl": "./images/prod-prod-mws9s3v6-8eyh.jpg",
+      "availability": "available",
+      "featured": false,
+      "order": 6
     }
   ]
 }
