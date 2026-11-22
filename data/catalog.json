@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T19:57:50.212Z",
+  "updatedAt": "2026-11-22T19:59:01.765Z",
   "brand": {
     "brandName": "Le Mi Robine",
     "heroEyebrow": "Manifattura Artigianale · Vendita Diretta",
     "heroTitle": "Le Mi Robine",
     "heroSubtitle": "Oggetti e gadget incisi a laser (es. portachiavi i pelle, segnalibri in legno, ecc.)",
     "heroImageUrl": "./images/hero-vetrina.jpg",
-    "craftNoteTitle": "Dal Laboratorio alla cliente",
+    "craftNoteTitle": "Dal Laboratorio al cliente",
     "craftNoteBody": "Oggetti e gadgeti di qualità",
     "contactEmail": "",
-    "whatsappNumber": "+39 055 000 1234",
+    "whatsappNumber": "",
     "footerNote": "Le Mi Robine"
   },
   "layout": {
