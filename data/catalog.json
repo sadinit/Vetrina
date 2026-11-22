@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T20:15:20.217Z",
+  "updatedAt": "2026-11-22T20:21:54.546Z",
   "brand": {
     "brandName": "Le Mi Robine",
     "heroEyebrow": "Manifattura Artigianale · Vendita Diretta",
@@ -219,6 +219,37 @@
       "availability": "available",
       "featured": false,
       "order": 6
+    },
+    {
+      "id": "prod-mwsa8tze-dmle",
+      "sku": "ART-08",
+      "name": "Nuovo Prodotto",
+      "category": "Segnalibri",
+      "summary": "Breve descrizione per la scheda vetrina (mantiene l’altezza fissa del layout).",
+      "description": "Descrizione dettagliata del prodotto, materiali, dimensioni e note d’uso per la scheda completa.",
+      "unitLabel": "pz",
+      "basePrice": 25,
+      "currency": "EUR",
+      "tiers": [
+        {
+          "id": "tier-mwsa8tze-0lmh",
+          "minQty": 1,
+          "maxQty": 9,
+          "unitPrice": 25,
+          "label": "Standard"
+        },
+        {
+          "id": "tier-mwsa8tze-gn7j",
+          "minQty": 10,
+          "maxQty": null,
+          "unitPrice": 21,
+          "label": "Quantità"
+        }
+      ],
+      "imageUrl": "",
+      "availability": "available",
+      "featured": false,
+      "order": 7
     }
   ]
 }

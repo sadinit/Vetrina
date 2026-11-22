@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>Le Mi Robine — Vetrina Prodotti</title>
   <meta name="description" content="Oggetti e gadget incisi a laser (es. portachiavi i pelle, segnalibri in legno, ecc.)" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -356,9 +359,8 @@
       <nav class="nav-links">
         <a href="#catalogo">Catalogo</a>
         <a href="#condizioni">Forniture</a>
-        <a href="#contatti">Contatti</a>
       </nav>
-      <button class="btn-primary" id="open-quote-btn" type="button">Richiesta Ordine (<span class="tabular" id="quote-count">0</span>)</button>
+      <a href="#contatti" class="btn-primary" style="text-decoration:none;">Contatti</a>
     </div>
   </header>
 
@@ -386,14 +388,13 @@
   </main>
 
   <footer class="container" id="contatti">
-    <span>Le Mi Robine</span>
-    <span></span>
+    <span id="footer-note">Le Mi Robine</span>
+    <span id="footer-contact"></span>
   </footer>
 
   <dialog class="modal" id="product-modal"></dialog>
-  <dialog class="modal" id="quote-modal"></dialog>
 
-  <script id="embedded-catalog" type="application/json">{"version":1,"updatedAt":"2026-11-22T20:15:20.217Z","brand":{"brandName":"Le Mi Robine","heroEyebrow":"Manifattura Artigianale · Vendita Diretta","heroTitle":"Le Mi Robine","heroSubtitle":"Oggetti e gadget incisi a laser (es. portachiavi i pelle, segnalibri in legno, ecc.)","heroImageUrl":"./images/hero-vetrina.jpg","craftNoteTitle":"Dal Laboratorio al cliente","craftNoteBody":"Oggetti e gadgeti di qualità","contactEmail":"","whatsappNumber":"","footerNote":"Le Mi Robine"},"layout":{"isLocked":false,"lockedAt":null,"layoutSignature":"EDW-3C-43-SPL-TBL-P9","presetId":"editorial-warm","columns":3,"imageRatio":"4:3","heroStyle":"split","cardDensity":"balanced","maxSummaryLines":2,"tierDisplay":"table","itemsPerPage":9,"showSku":true,"showCategory":true,"showAvailability":true,"showSearchAndFilter":true},"products":[{"id":"prod-vaso-travertino","sku":"AB-VAS-01","name":"Segnalibri in legno","category":"Segnalibri","summary":"Segnalibro con incisione laser","description":"Segnalibro in legno con scritta personalizzabile 11x3 cm","unitLabel":"pz","basePrice":2,"currency":"EUR","tiers":[{"id":"t1","minQty":1,"maxQty":null,"unitPrice":2,"label":"Singolo"}],"imageUrl":"./images/prod-prod-vaso-travertino.jpg","availability":"available","featured":true,"order":0},{"id":"prod-tazzine-espresso","sku":"AB-TAZ-02","name":"Pallina di natale","category":"Palline natale","summary":"Pallina di natale incisa a laser","description":"Pallina di natale in legno con incisione a laser \"Non rompetemi le renne\"","unitLabel":"set","basePrice":2,"currency":"EUR","tiers":[{"id":"t4","minQty":1,"maxQty":null,"unitPrice":2,"label":"Privati"}],"imageUrl":"./images/prod-prod-tazzine-espresso.jpg","availability":"available","featured":true,"order":1},{"id":"prod-oliera-terracotta","sku":"AB-OLI-03","name":"Portachiave in pelle","category":"Portachiavi","summary":"Portachiave in pelle con incisione","description":"Portachiave in pelle con incisione personalizzabile. Diametro 5 cm. Colori misti","unitLabel":"pz","basePrice":1.5,"currency":"EUR","tiers":[{"id":"t7","minQty":1,"maxQty":49,"unitPrice":1.5,"label":"Standard"},{"id":"t9","minQty":50,"maxQty":99,"unitPrice":1.3,"label":"Frantoio / Ingrosso"},{"id":"tier-mwhkg2ab-1s02","minQty":100,"maxQty":null,"unitPrice":1.1,"label":"Volume"}],"imageUrl":"./images/prod-prod-oliera-terracotta.jpg","availability":"available","featured":false,"order":2},{"id":"prod-lampada-ottone","sku":"AB-LUM-04","name":"Agenda","category":"Agende","summary":"Agenda con incisione a laser","description":"Agenda personalizzata con incisione laser. Misura 10x15. Colori misti","unitLabel":"pz","basePrice":9,"currency":"EUR","tiers":[{"id":"t10","minQty":1,"maxQty":3,"unitPrice":9,"label":""},{"id":"t11","minQty":4,"maxQty":15,"unitPrice":14,"label":""}],"imageUrl":"./images/prod-prod-lampada-ottone.jpg","availability":"made-to-order","featured":true,"order":3},{"id":"prod-mws9ls92-xaqz","sku":"ART-05","name":"Sottopentola in sughero","category":"Sottopentola","summary":"Sottopentola con incisione laser","description":"Sottopentola in sughero natalizio","unitLabel":"pz","basePrice":5,"currency":"EUR","tiers":[{"id":"tier-mws9ls92-2j3g","minQty":1,"maxQty":null,"unitPrice":5,"label":"Standard"}],"imageUrl":"./images/prod-prod-mws9ls92-xaqz.jpg","availability":"available","featured":false,"order":4},{"id":"prod-mws9q182-y9iw","sku":"ART-06","name":"Alberello di natale","category":"Alberello ","summary":"Alberello di natale inciso a laser","description":"Alberello di natale inciso al laser testo personalizzabile","unitLabel":"pz","basePrice":2,"currency":"EUR","tiers":[{"id":"tier-mws9q183-roux","minQty":1,"maxQty":null,"unitPrice":2,"label":"Standard"}],"imageUrl":"./images/prod-prod-mws9q182-y9iw.jpg","availability":"available","featured":false,"order":5},{"id":"prod-mws9s3v6-8eyh","sku":"ART-07","name":"Portachiave in pelle","category":"Portachiave","summary":"Portachiave in pelle inciso al laser","description":"Portachiave rotondo inciso a laser personalizzabile con anello ","unitLabel":"pz","basePrice":3.5,"currency":"EUR","tiers":[{"id":"tier-mws9s3v6-5ce5","minQty":1,"maxQty":1,"unitPrice":3.5,"label":"Standard"}],"imageUrl":"./images/prod-prod-mws9s3v6-8eyh.jpg","availability":"available","featured":false,"order":6}]}</script>
+  <script id="embedded-catalog" type="application/json">{"version":1,"updatedAt":"2026-11-22T20:21:54.546Z","brand":{"brandName":"Le Mi Robine","heroEyebrow":"Manifattura Artigianale · Vendita Diretta","heroTitle":"Le Mi Robine","heroSubtitle":"Oggetti e gadget incisi a laser (es. portachiavi i pelle, segnalibri in legno, ecc.)","heroImageUrl":"./images/hero-vetrina.jpg","craftNoteTitle":"Dal Laboratorio al cliente","craftNoteBody":"Oggetti e gadgeti di qualità","contactEmail":"","whatsappNumber":"","footerNote":"Le Mi Robine"},"layout":{"isLocked":false,"lockedAt":null,"layoutSignature":"EDW-3C-43-SPL-TBL-P9","presetId":"editorial-warm","columns":3,"imageRatio":"4:3","heroStyle":"split","cardDensity":"balanced","maxSummaryLines":2,"tierDisplay":"table","itemsPerPage":9,"showSku":true,"showCategory":true,"showAvailability":true,"showSearchAndFilter":true},"products":[{"id":"prod-vaso-travertino","sku":"AB-VAS-01","name":"Segnalibri in legno","category":"Segnalibri","summary":"Segnalibro con incisione laser","description":"Segnalibro in legno con scritta personalizzabile 11x3 cm","unitLabel":"pz","basePrice":2,"currency":"EUR","tiers":[{"id":"t1","minQty":1,"maxQty":null,"unitPrice":2,"label":"Singolo"}],"imageUrl":"./images/prod-prod-vaso-travertino.jpg","availability":"available","featured":true,"order":0},{"id":"prod-tazzine-espresso","sku":"AB-TAZ-02","name":"Pallina di natale","category":"Palline natale","summary":"Pallina di natale incisa a laser","description":"Pallina di natale in legno con incisione a laser \"Non rompetemi le renne\"","unitLabel":"set","basePrice":2,"currency":"EUR","tiers":[{"id":"t4","minQty":1,"maxQty":null,"unitPrice":2,"label":"Privati"}],"imageUrl":"./images/prod-prod-tazzine-espresso.jpg","availability":"available","featured":true,"order":1},{"id":"prod-oliera-terracotta","sku":"AB-OLI-03","name":"Portachiave in pelle","category":"Portachiavi","summary":"Portachiave in pelle con incisione","description":"Portachiave in pelle con incisione personalizzabile. Diametro 5 cm. Colori misti","unitLabel":"pz","basePrice":1.5,"currency":"EUR","tiers":[{"id":"t7","minQty":1,"maxQty":49,"unitPrice":1.5,"label":"Standard"},{"id":"t9","minQty":50,"maxQty":99,"unitPrice":1.3,"label":"Frantoio / Ingrosso"},{"id":"tier-mwhkg2ab-1s02","minQty":100,"maxQty":null,"unitPrice":1.1,"label":"Volume"}],"imageUrl":"./images/prod-prod-oliera-terracotta.jpg","availability":"available","featured":false,"order":2},{"id":"prod-lampada-ottone","sku":"AB-LUM-04","name":"Agenda","category":"Agende","summary":"Agenda con incisione a laser","description":"Agenda personalizzata con incisione laser. Misura 10x15. Colori misti","unitLabel":"pz","basePrice":9,"currency":"EUR","tiers":[{"id":"t10","minQty":1,"maxQty":3,"unitPrice":9,"label":""},{"id":"t11","minQty":4,"maxQty":15,"unitPrice":14,"label":""}],"imageUrl":"./images/prod-prod-lampada-ottone.jpg","availability":"made-to-order","featured":true,"order":3},{"id":"prod-mws9ls92-xaqz","sku":"ART-05","name":"Sottopentola in sughero","category":"Sottopentola","summary":"Sottopentola con incisione laser","description":"Sottopentola in sughero natalizio","unitLabel":"pz","basePrice":5,"currency":"EUR","tiers":[{"id":"tier-mws9ls92-2j3g","minQty":1,"maxQty":null,"unitPrice":5,"label":"Standard"}],"imageUrl":"./images/prod-prod-mws9ls92-xaqz.jpg","availability":"available","featured":false,"order":4},{"id":"prod-mws9q182-y9iw","sku":"ART-06","name":"Alberello di natale","category":"Alberello ","summary":"Alberello di natale inciso a laser","description":"Alberello di natale inciso al laser testo personalizzabile","unitLabel":"pz","basePrice":2,"currency":"EUR","tiers":[{"id":"tier-mws9q183-roux","minQty":1,"maxQty":null,"unitPrice":2,"label":"Standard"}],"imageUrl":"./images/prod-prod-mws9q182-y9iw.jpg","availability":"available","featured":false,"order":5},{"id":"prod-mws9s3v6-8eyh","sku":"ART-07","name":"Portachiave in pelle","category":"Portachiave","summary":"Portachiave in pelle inciso al laser","description":"Portachiave rotondo inciso a laser personalizzabile con anello ","unitLabel":"pz","basePrice":3.5,"currency":"EUR","tiers":[{"id":"tier-mws9s3v6-5ce5","minQty":1,"maxQty":1,"unitPrice":3.5,"label":"Standard"}],"imageUrl":"./images/prod-prod-mws9s3v6-8eyh.jpg","availability":"available","featured":false,"order":6},{"id":"prod-mwsa8tze-dmle","sku":"ART-08","name":"Nuovo Prodotto","category":"Segnalibri","summary":"Breve descrizione per la scheda vetrina (mantiene l’altezza fissa del layout).","description":"Descrizione dettagliata del prodotto, materiali, dimensioni e note d’uso per la scheda completa.","unitLabel":"pz","basePrice":25,"currency":"EUR","tiers":[{"id":"tier-mwsa8tze-0lmh","minQty":1,"maxQty":9,"unitPrice":25,"label":"Standard"},{"id":"tier-mwsa8tze-gn7j","minQty":10,"maxQty":null,"unitPrice":21,"label":"Quantità"}],"imageUrl":"","availability":"available","featured":false,"order":7}]}</script>
   <script>
     (function () {
       const embeddedEl = document.getElementById('embedded-catalog');
@@ -401,7 +402,6 @@
       let activeCategory = 'Tutte';
       let searchQuery = '';
       let currentPage = 1;
-      let quoteItems = [];
 
       const fmt = (n, curr) => new Intl.NumberFormat('it-IT', { style: 'currency', currency: curr || 'EUR' }).format(n);
       const esc = (s) => String(s || '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -563,11 +563,6 @@
         }
       }
 
-      function updateQuoteCount() {
-        const totalQty = quoteItems.reduce((acc, item) => acc + item.quantity, 0);
-        document.getElementById('quote-count').textContent = String(totalQty);
-      }
-
       function openProductModal(productId) {
         const p = (state.products || []).find((x) => x.id === productId);
         if (!p) return;
@@ -592,7 +587,6 @@
             + '<div style="font-size:0.75rem;color:var(--ink-muted);">Prezzo unitario: <span class="tabular">' + fmt(res.unitPrice, p.currency) + '</span></div>'
             + '<div class="tabular" style="font-size:1.15rem;font-weight:700;">Totale: ' + fmt(res.unitPrice * qty, p.currency) + '</div>'
             + '</div></div>'
-            + '<button type="button" class="btn-primary" id="add-to-quote">Aggiungi alla Richiesta Ordine</button>'
             + '</div></div>';
 
           document.getElementById('close-prod-modal').addEventListener('click', () => modal.close());
@@ -601,52 +595,43 @@
             qty = Math.max(1, parseInt(e.target.value || '1', 10));
             renderModal();
           });
-          document.getElementById('add-to-quote').addEventListener('click', () => {
-            const existing = quoteItems.find((i) => i.productId === p.id);
-            if (existing) existing.quantity += qty;
-            else quoteItems.push({ productId: p.id, quantity: qty });
-            updateQuoteCount();
-            modal.close();
-          });
         };
         renderModal();
         modal.showModal();
       }
 
-      function openQuoteModal() {
-        const modal = document.getElementById('quote-modal');
-        const rows = quoteItems.map((item) => {
-          const p = (state.products || []).find((x) => x.id === item.productId);
-          if (!p) return null;
-          const res = resolvePrice(p, item.quantity);
-          return { p, qty: item.quantity, unit: res.unitPrice, total: res.unitPrice * item.quantity };
-        }).filter(Boolean);
-        const grand = rows.reduce((s, r) => s + r.total, 0);
-        const summaryText = rows.map((r) => r.p.name + ' (' + r.p.sku + ') x ' + r.qty + ' ' + r.p.unitLabel + ' = ' + fmt(r.total, r.p.currency)).join('%0A');
-        const mailto = 'mailto:' + encodeURIComponent(state.brand.contactEmail || '') + '?subject=' + encodeURIComponent('Richiesta ordine — ' + state.brand.brandName) + '&body=' + summaryText;
-        modal.innerHTML = '<div class="modal-content">'
-          + '<div style="display:flex;justify-content:space-between;align-items:center;">'
-          + '<h2 style="font-family:var(--font-display);margin:0;">Riepilogo Richiesta Ordine</h2>'
-          + '<button type="button" class="btn-outline" id="close-quote-modal">Chiudi</button></div>'
-          + (rows.length
-            ? '<table class="tier-table"><tbody>' + rows.map((r) => '<tr><td><strong>' + esc(r.p.name) + '</strong><br><span style="color:var(--ink-muted);">' + r.qty + ' ' + esc(r.p.unitLabel) + ' × ' + fmt(r.unit, r.p.currency) + '</span></td><td class="price-cell tabular">' + fmt(r.total, r.p.currency) + '</td></tr>').join('') + '</tbody></table>'
-              + '<div style="display:flex;justify-content:space-between;align-items:center;padding-top:0.75rem;border-top:1px solid var(--border);">'
-              + '<strong>Totale stimato</strong><strong class="tabular" style="font-size:1.25rem;">' + fmt(grand, 'EUR') + '</strong></div>'
-              + '<div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.5rem;">'
-              + '<a href="' + mailto + '" class="btn-primary" style="text-decoration:none;">Invia Richiesta via Email</a>'
-              + '<button type="button" class="btn-outline" id="clear-quote">Svuota Lista</button></div>'
-            : '<p style="color:var(--ink-muted);">La lista è vuota. Apri un prodotto per selezionare la quantità desiderata.</p>')
-          + '</div>';
-        document.getElementById('close-quote-modal').addEventListener('click', () => modal.close());
-        const clr = document.getElementById('clear-quote');
-        if (clr) clr.addEventListener('click', () => { quoteItems = []; updateQuoteCount(); modal.close(); });
-        modal.showModal();
-      }
-
-      document.getElementById('open-quote-btn').addEventListener('click', openQuoteModal);
       renderHero();
       renderToolbar();
       renderGrid();
+
+      if (window.location && window.location.protocol && window.location.protocol.indexOf('http') === 0) {
+        fetch("./data/catalog.json" + '?v=' + Date.now(), { cache: 'no-store' })
+          .then((res) => (res.ok ? res.json() : null))
+          .then((remote) => {
+            if (!remote || !Array.isArray(remote.products) || !remote.brand) return;
+            const localTime = Date.parse(state.updatedAt || '') || 0;
+            const remoteTime = Date.parse(remote.updatedAt || '') || 0;
+            if (remoteTime > localTime) {
+              state = remote;
+              const brandEl = document.getElementById('brand-title');
+              if (brandEl) brandEl.textContent = remote.brand.brandName || '';
+              const craftTitle = document.getElementById('craft-title');
+              if (craftTitle) craftTitle.textContent = remote.brand.craftNoteTitle || '';
+              const craftBody = document.getElementById('craft-body');
+              if (craftBody) craftBody.textContent = remote.brand.craftNoteBody || '';
+              const footerNoteEl = document.getElementById('footer-note');
+              if (footerNoteEl) footerNoteEl.textContent = remote.brand.footerNote || remote.brand.brandName || '';
+              const footerContactEl = document.getElementById('footer-contact');
+              if (footerContactEl) {
+                footerContactEl.textContent = (remote.brand.contactEmail || '') + (remote.brand.whatsappNumber ? ' · ' + remote.brand.whatsappNumber : '');
+              }
+              renderHero();
+              renderToolbar();
+              renderGrid();
+            }
+          })
+          .catch(() => {});
+      }
     })();
   </script>
 </body>
