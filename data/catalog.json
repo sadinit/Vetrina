@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T17:44:42.126Z",
+  "updatedAt": "2026-11-22T19:57:50.212Z",
   "brand": {
     "brandName": "Le Mi Robine",
-    "heroEyebrow": "Manifattura Artigianale · Vendita Diretta e Ingrosso",
+    "heroEyebrow": "Manifattura Artigianale · Vendita Diretta",
     "heroTitle": "Le Mi Robine",
     "heroSubtitle": "Oggetti e gadget incisi a laser (es. portachiavi i pelle, segnalibri in legno, ecc.)",
     "heroImageUrl": "./images/hero-vetrina.jpg",
-    "craftNoteTitle": "Dal Laboratorio alla Tavola",
-    "craftNoteBody": "Selezioniamo materie prime locali e cotture lente. Per ordini multipli garantiamo condizioni dedicate per quantità.",
+    "craftNoteTitle": "Dal Laboratorio alla cliente",
+    "craftNoteBody": "Oggetti e gadgeti di qualità",
     "contactEmail": "",
     "whatsappNumber": "+39 055 000 1234",
-    "footerNote": "Atelier Bellini — Listino pubblico ospitato su GitHub Pages"
+    "footerNote": "Le Mi Robine"
   },
   "layout": {
     "isLocked": false,
